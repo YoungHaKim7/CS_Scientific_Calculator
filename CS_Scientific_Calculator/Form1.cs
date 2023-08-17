@@ -6,5 +6,10 @@ namespace CS_Scientific_Calculator
         {
             InitializeComponent();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

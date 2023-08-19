@@ -145,6 +145,7 @@
             btnAdd.TabIndex = 4;
             btnAdd.Text = "+";
             btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Click += numberOper;
             // 
             // btn4
             // 
@@ -188,6 +189,7 @@
             btnSub.TabIndex = 4;
             btnSub.Text = "-";
             btnSub.UseVisualStyleBackColor = true;
+            btnSub.Click += numberOper;
             // 
             // btn1
             // 
@@ -231,6 +233,7 @@
             btnMult.TabIndex = 4;
             btnMult.Text = "*";
             btnMult.UseVisualStyleBackColor = true;
+            btnMult.Click += numberOper;
             // 
             // btn0
             // 
@@ -263,6 +266,7 @@
             btnEquals.TabIndex = 3;
             btnEquals.Text = "=";
             btnEquals.UseVisualStyleBackColor = true;
+            btnEquals.Click += btnEquals_Click;
             // 
             // btnDiv
             // 
@@ -273,6 +277,7 @@
             btnDiv.TabIndex = 4;
             btnDiv.Text = "/";
             btnDiv.UseVisualStyleBackColor = true;
+            btnDiv.Click += numberOper;
             // 
             // Form1
             // 

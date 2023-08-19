@@ -30,13 +30,46 @@ namespace CS_Scientific_Calculator
                 {
                     if (!txtResult.Text.Contains("."))
                         txtResult.Text = txtResult.Text + num.Text;
-
                 }
                 else
                 {
                     txtResult.Text = txtResult.Text + num.Text;
 
                 }
+            }
+        }
+
+        private void numberOper(object sender, EventArgs e)
+        {
+            Button num = (Button)sender;
+
+            enterFirstValue = Convert.ToDouble(txtResult.Text);
+            op = num.Text;
+            txtResult.Text = "";
+        }
+
+        private void btnEquals_Click(object sender, EventArgs e)
+        {
+            enterSecondValue = Convert.ToDouble(txtResult.Text);
+
+            switch (op)
+            {
+                case "+":
+                    txtResult.Text = (enterFirstValue + enterSecondValue).ToString();
+                    break;
+
+                case "-":
+                    txtResult.Text = (enterFirstValue - enterSecondValue).ToString();
+                    break;
+
+                case "*":
+                    txtResult.Text = (enterFirstValue * enterSecondValue).ToString();
+                    break;
+                case "/":
+                    txtResult.Text = (enterFirstValue / enterSecondValue).ToString();
+                    break;
+
+                default: break;
             }
         }
     }

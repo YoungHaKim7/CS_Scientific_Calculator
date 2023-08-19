@@ -11,5 +11,10 @@ namespace CS_Scientific_Calculator
         {
 
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

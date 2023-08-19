@@ -96,5 +96,13 @@ namespace CS_Scientific_Calculator
             double q = Convert.ToDouble(txtResult.Text);
             txtResult.Text = Convert.ToString(-1 * q);
         }
+
+        private void btnBS_Click(object sender, EventArgs e)
+        {
+            if (txtResult.Text.Length > 0)
+            {
+                txtResult.Text = txtResult.Text.Remove(txtResult.Text.Length - 1, 1);
+            }
+        }
     }
 }

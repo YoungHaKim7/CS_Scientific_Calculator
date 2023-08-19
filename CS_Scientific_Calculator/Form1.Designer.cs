@@ -72,6 +72,7 @@
             button1.TabIndex = 1;
             button1.Text = "⌫";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += btnBS_Click;
             // 
             // btnClearEntry
             // 

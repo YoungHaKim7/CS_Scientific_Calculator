@@ -104,6 +104,7 @@
             btnPM.TabIndex = 4;
             btnPM.Text = "±";
             btnPM.UseVisualStyleBackColor = true;
+            btnPM.Click += btnPM_Click;
             // 
             // btn7
             // 

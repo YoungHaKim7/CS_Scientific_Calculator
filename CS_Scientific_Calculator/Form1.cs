@@ -90,5 +90,11 @@ namespace CS_Scientific_Calculator
             f = "";
             s = "";
         }
+
+        private void btnPM_Click(object sender, EventArgs e)
+        {
+            double q = Convert.ToDouble(txtResult.Text);
+            txtResult.Text = Convert.ToString(-1 * q);
+        }
     }
 }

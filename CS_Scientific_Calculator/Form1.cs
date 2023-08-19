@@ -72,5 +72,23 @@ namespace CS_Scientific_Calculator
                 default: break;
             }
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtResult.Text = "0";
+        }
+
+        private void btnClearEntry_Click(object sender, EventArgs e)
+        {
+            txtResult.Text = "0";
+
+            String f, s;
+
+            f = Convert.ToString(enterFirstValue);
+            s = Convert.ToString(enterSecondValue);
+
+            f = "";
+            s = "";
+        }
     }
 }

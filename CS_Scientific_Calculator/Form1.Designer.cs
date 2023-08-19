@@ -82,6 +82,7 @@
             btnClearEntry.TabIndex = 2;
             btnClearEntry.Text = "CE";
             btnClearEntry.UseVisualStyleBackColor = true;
+            btnClearEntry.Click += btnClearEntry_Click;
             // 
             // btnClear
             // 
@@ -92,6 +93,7 @@
             btnClear.TabIndex = 3;
             btnClear.Text = "C";
             btnClear.UseVisualStyleBackColor = true;
+            btnClear.Click += btnClear_Click;
             // 
             // btnPM
             // 

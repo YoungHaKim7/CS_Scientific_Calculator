@@ -103,6 +103,29 @@ namespace CS_Scientific_Calculator
             {
                 txtResult.Text = txtResult.Text.Remove(txtResult.Text.Length - 1, 1);
             }
+
+            if (txtResult.Text == "")
+            {
+                txtResult.Text = "0";
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.Width = 360; // 849
+            txtResult.Width = 310;
+        }
+
+        private void standardToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Width = 360; // 849
+            txtResult.Width = 310;
+        }
+
+        private void scientificToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Width = 849; // 849
+            txtResult.Width = 310;
         }
     }
 }

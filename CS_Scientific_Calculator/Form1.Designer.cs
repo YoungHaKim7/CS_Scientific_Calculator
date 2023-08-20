@@ -49,15 +49,21 @@
             btnDot = new Button();
             btnEquals = new Button();
             btnDiv = new Button();
+            menuStrip1 = new MenuStrip();
+            fileToolStripMenuItem = new ToolStripMenuItem();
+            standardToolStripMenuItem = new ToolStripMenuItem();
+            scientificToolStripMenuItem = new ToolStripMenuItem();
+            exitToolStripMenuItem = new ToolStripMenuItem();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // txtResult
             // 
-            txtResult.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            txtResult.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
             txtResult.Location = new Point(12, 26);
             txtResult.Multiline = true;
             txtResult.Name = "txtResult";
-            txtResult.Size = new Size(318, 36);
+            txtResult.Size = new Size(349, 36);
             txtResult.TabIndex = 0;
             txtResult.Text = "0";
             txtResult.TextAlign = HorizontalAlignment.Right;
@@ -65,7 +71,7 @@
             // 
             // button1
             // 
-            button1.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             button1.Location = new Point(12, 68);
             button1.Name = "button1";
             button1.Size = new Size(75, 80);
@@ -76,7 +82,7 @@
             // 
             // btnClearEntry
             // 
-            btnClearEntry.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnClearEntry.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btnClearEntry.Location = new Point(93, 68);
             btnClearEntry.Name = "btnClearEntry";
             btnClearEntry.Size = new Size(75, 80);
@@ -87,7 +93,7 @@
             // 
             // btnClear
             // 
-            btnClear.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnClear.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btnClear.Location = new Point(174, 68);
             btnClear.Name = "btnClear";
             btnClear.Size = new Size(75, 80);
@@ -98,7 +104,7 @@
             // 
             // btnPM
             // 
-            btnPM.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnPM.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btnPM.Location = new Point(255, 68);
             btnPM.Name = "btnPM";
             btnPM.Size = new Size(75, 80);
@@ -109,7 +115,7 @@
             // 
             // btn7
             // 
-            btn7.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btn7.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btn7.Location = new Point(12, 154);
             btn7.Name = "btn7";
             btn7.Size = new Size(75, 80);
@@ -120,7 +126,7 @@
             // 
             // btn8
             // 
-            btn8.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btn8.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btn8.Location = new Point(93, 154);
             btn8.Name = "btn8";
             btn8.Size = new Size(75, 80);
@@ -131,7 +137,7 @@
             // 
             // btn9
             // 
-            btn9.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btn9.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btn9.Location = new Point(174, 154);
             btn9.Name = "btn9";
             btn9.Size = new Size(75, 80);
@@ -142,7 +148,7 @@
             // 
             // btnAdd
             // 
-            btnAdd.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnAdd.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btnAdd.Location = new Point(255, 154);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(75, 80);
@@ -153,7 +159,7 @@
             // 
             // btn4
             // 
-            btn4.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btn4.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btn4.Location = new Point(12, 240);
             btn4.Name = "btn4";
             btn4.Size = new Size(75, 80);
@@ -164,7 +170,7 @@
             // 
             // btn5
             // 
-            btn5.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btn5.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btn5.Location = new Point(93, 240);
             btn5.Name = "btn5";
             btn5.Size = new Size(75, 80);
@@ -175,7 +181,7 @@
             // 
             // btn6
             // 
-            btn6.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btn6.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btn6.Location = new Point(174, 240);
             btn6.Name = "btn6";
             btn6.Size = new Size(75, 80);
@@ -186,7 +192,7 @@
             // 
             // btnSub
             // 
-            btnSub.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnSub.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btnSub.Location = new Point(255, 240);
             btnSub.Name = "btnSub";
             btnSub.Size = new Size(75, 80);
@@ -197,7 +203,7 @@
             // 
             // btn1
             // 
-            btn1.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btn1.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btn1.Location = new Point(12, 326);
             btn1.Name = "btn1";
             btn1.Size = new Size(75, 80);
@@ -208,7 +214,7 @@
             // 
             // btn2
             // 
-            btn2.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btn2.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btn2.Location = new Point(93, 326);
             btn2.Name = "btn2";
             btn2.Size = new Size(75, 80);
@@ -219,7 +225,7 @@
             // 
             // btn3
             // 
-            btn3.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btn3.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btn3.Location = new Point(174, 326);
             btn3.Name = "btn3";
             btn3.Size = new Size(75, 80);
@@ -230,7 +236,7 @@
             // 
             // btnMult
             // 
-            btnMult.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnMult.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btnMult.Location = new Point(255, 326);
             btnMult.Name = "btnMult";
             btnMult.Size = new Size(75, 80);
@@ -241,7 +247,7 @@
             // 
             // btn0
             // 
-            btn0.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btn0.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btn0.Location = new Point(12, 412);
             btn0.Name = "btn0";
             btn0.Size = new Size(75, 80);
@@ -252,7 +258,7 @@
             // 
             // btnDot
             // 
-            btnDot.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnDot.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btnDot.Location = new Point(93, 412);
             btnDot.Name = "btnDot";
             btnDot.Size = new Size(75, 80);
@@ -263,7 +269,7 @@
             // 
             // btnEquals
             // 
-            btnEquals.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnEquals.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btnEquals.Location = new Point(174, 412);
             btnEquals.Name = "btnEquals";
             btnEquals.Size = new Size(75, 80);
@@ -274,7 +280,7 @@
             // 
             // btnDiv
             // 
-            btnDiv.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnDiv.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btnDiv.Location = new Point(255, 412);
             btnDiv.Name = "btnDiv";
             btnDiv.Size = new Size(75, 80);
@@ -282,6 +288,42 @@
             btnDiv.Text = "/";
             btnDiv.UseVisualStyleBackColor = true;
             btnDiv.Click += numberOper;
+            // 
+            // menuStrip1
+            // 
+            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(833, 24);
+            menuStrip1.TabIndex = 5;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { standardToolStripMenuItem, scientificToolStripMenuItem, exitToolStripMenuItem });
+            fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            fileToolStripMenuItem.Size = new Size(37, 20);
+            fileToolStripMenuItem.Text = "File";
+            // 
+            // standardToolStripMenuItem
+            // 
+            standardToolStripMenuItem.Name = "standardToolStripMenuItem";
+            standardToolStripMenuItem.Size = new Size(123, 22);
+            standardToolStripMenuItem.Text = "Standard";
+            standardToolStripMenuItem.Click += standardToolStripMenuItem_Click;
+            // 
+            // scientificToolStripMenuItem
+            // 
+            scientificToolStripMenuItem.Name = "scientificToolStripMenuItem";
+            scientificToolStripMenuItem.Size = new Size(123, 22);
+            scientificToolStripMenuItem.Text = "Scientific";
+            scientificToolStripMenuItem.Click += scientificToolStripMenuItem_Click;
+            // 
+            // exitToolStripMenuItem
+            // 
+            exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            exitToolStripMenuItem.Size = new Size(123, 22);
+            exitToolStripMenuItem.Text = "Exit";
             // 
             // Form1
             // 
@@ -309,8 +351,13 @@
             Controls.Add(btn7);
             Controls.Add(button1);
             Controls.Add(txtResult);
+            Controls.Add(menuStrip1);
+            MainMenuStrip = menuStrip1;
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -338,5 +385,10 @@
         private Button btnDot;
         private Button btnEquals;
         private Button btnDiv;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem fileToolStripMenuItem;
+        private ToolStripMenuItem standardToolStripMenuItem;
+        private ToolStripMenuItem scientificToolStripMenuItem;
+        private ToolStripMenuItem exitToolStripMenuItem;
     }
 }

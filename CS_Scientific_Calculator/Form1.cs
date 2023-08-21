@@ -125,8 +125,8 @@ namespace CS_Scientific_Calculator
 
         private void scientificToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Width = 849; // 849
-            txtResult.Width = 310;
+            this.Width = 690; // 849
+            txtResult.Width = 636;
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)

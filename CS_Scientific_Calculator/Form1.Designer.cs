@@ -54,8 +54,8 @@
             standardToolStripMenuItem = new ToolStripMenuItem();
             scientificToolStripMenuItem = new ToolStripMenuItem();
             exitToolStripMenuItem = new ToolStripMenuItem();
-            button2 = new Button();
-            button3 = new Button();
+            btnPi = new Button();
+            btnLog = new Button();
             button4 = new Button();
             button5 = new Button();
             button6 = new Button();
@@ -83,7 +83,7 @@
             txtResult.Location = new Point(12, 26);
             txtResult.Multiline = true;
             txtResult.Name = "txtResult";
-            txtResult.Size = new Size(349, 36);
+            txtResult.Size = new Size(664, 36);
             txtResult.TabIndex = 0;
             txtResult.Text = "0";
             txtResult.TextAlign = HorizontalAlignment.Right;
@@ -314,7 +314,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(833, 24);
+            menuStrip1.Size = new Size(699, 24);
             menuStrip1.TabIndex = 5;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -346,27 +346,27 @@
             exitToolStripMenuItem.Text = "Exit";
             exitToolStripMenuItem.Click += exitToolStripMenuItem_Click;
             // 
-            // button2
+            // btnPi
             // 
-            button2.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(358, 68);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 80);
-            button2.TabIndex = 4;
-            button2.Text = "±";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += btnPM_Click;
+            btnPi.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnPi.Location = new Point(358, 68);
+            btnPi.Name = "btnPi";
+            btnPi.Size = new Size(75, 80);
+            btnPi.TabIndex = 4;
+            btnPi.Text = "π";
+            btnPi.UseVisualStyleBackColor = true;
+            btnPi.Click += btnPM_Click;
             // 
-            // button3
+            // btnLog
             // 
-            button3.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.Location = new Point(439, 68);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 80);
-            button3.TabIndex = 4;
-            button3.Text = "±";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += btnPM_Click;
+            btnLog.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnLog.Location = new Point(439, 68);
+            btnLog.Name = "btnLog";
+            btnLog.Size = new Size(75, 80);
+            btnLog.TabIndex = 4;
+            btnLog.Text = "Log";
+            btnLog.UseVisualStyleBackColor = true;
+            btnLog.Click += btnPM_Click;
             // 
             // button4
             // 
@@ -375,7 +375,7 @@
             button4.Name = "button4";
             button4.Size = new Size(75, 80);
             button4.TabIndex = 4;
-            button4.Text = "±";
+            button4.Text = "Sqrt";
             button4.UseVisualStyleBackColor = true;
             button4.Click += btnPM_Click;
             // 
@@ -386,7 +386,7 @@
             button5.Name = "button5";
             button5.Size = new Size(75, 80);
             button5.TabIndex = 4;
-            button5.Text = "±";
+            button5.Text = "X²";
             button5.UseVisualStyleBackColor = true;
             button5.Click += btnPM_Click;
             // 
@@ -397,7 +397,7 @@
             button6.Name = "button6";
             button6.Size = new Size(75, 80);
             button6.TabIndex = 4;
-            button6.Text = "±";
+            button6.Text = "Sinh";
             button6.UseVisualStyleBackColor = true;
             button6.Click += btnPM_Click;
             // 
@@ -408,7 +408,7 @@
             button7.Name = "button7";
             button7.Size = new Size(75, 80);
             button7.TabIndex = 4;
-            button7.Text = "±";
+            button7.Text = "Sin";
             button7.UseVisualStyleBackColor = true;
             button7.Click += btnPM_Click;
             // 
@@ -419,7 +419,7 @@
             button8.Name = "button8";
             button8.Size = new Size(75, 80);
             button8.TabIndex = 4;
-            button8.Text = "±";
+            button8.Text = "Dec";
             button8.UseVisualStyleBackColor = true;
             button8.Click += btnPM_Click;
             // 
@@ -441,7 +441,7 @@
             button10.Name = "button10";
             button10.Size = new Size(75, 80);
             button10.TabIndex = 4;
-            button10.Text = "±";
+            button10.Text = "Cosh";
             button10.UseVisualStyleBackColor = true;
             button10.Click += btnPM_Click;
             // 
@@ -452,7 +452,7 @@
             button11.Name = "button11";
             button11.Size = new Size(75, 80);
             button11.TabIndex = 4;
-            button11.Text = "±";
+            button11.Text = "Cos";
             button11.UseVisualStyleBackColor = true;
             button11.Click += btnPM_Click;
             // 
@@ -463,7 +463,7 @@
             button12.Name = "button12";
             button12.Size = new Size(75, 80);
             button12.TabIndex = 4;
-            button12.Text = "±";
+            button12.Text = "Bin";
             button12.UseVisualStyleBackColor = true;
             button12.Click += btnPM_Click;
             // 
@@ -485,7 +485,7 @@
             button14.Name = "button14";
             button14.Size = new Size(75, 80);
             button14.TabIndex = 4;
-            button14.Text = "±";
+            button14.Text = "Tanh";
             button14.UseVisualStyleBackColor = true;
             button14.Click += btnPM_Click;
             // 
@@ -496,7 +496,7 @@
             button15.Name = "button15";
             button15.Size = new Size(75, 80);
             button15.TabIndex = 4;
-            button15.Text = "±";
+            button15.Text = "Tan";
             button15.UseVisualStyleBackColor = true;
             button15.Click += btnPM_Click;
             // 
@@ -507,7 +507,7 @@
             button16.Name = "button16";
             button16.Size = new Size(75, 80);
             button16.TabIndex = 4;
-            button16.Text = "±";
+            button16.Text = "Hex";
             button16.UseVisualStyleBackColor = true;
             button16.Click += btnPM_Click;
             // 
@@ -518,7 +518,7 @@
             button17.Name = "button17";
             button17.Size = new Size(75, 80);
             button17.TabIndex = 4;
-            button17.Text = "±";
+            button17.Text = "ln x";
             button17.UseVisualStyleBackColor = true;
             button17.Click += btnPM_Click;
             // 
@@ -529,7 +529,7 @@
             button18.Name = "button18";
             button18.Size = new Size(75, 80);
             button18.TabIndex = 4;
-            button18.Text = "±";
+            button18.Text = "Exp";
             button18.UseVisualStyleBackColor = true;
             button18.Click += btnPM_Click;
             // 
@@ -540,7 +540,7 @@
             button19.Name = "button19";
             button19.Size = new Size(75, 80);
             button19.TabIndex = 4;
-            button19.Text = "±";
+            button19.Text = "Mod";
             button19.UseVisualStyleBackColor = true;
             button19.Click += btnPM_Click;
             // 
@@ -551,7 +551,7 @@
             button20.Name = "button20";
             button20.Size = new Size(75, 80);
             button20.TabIndex = 4;
-            button20.Text = "±";
+            button20.Text = "Oct";
             button20.UseVisualStyleBackColor = true;
             button20.Click += btnPM_Click;
             // 
@@ -562,7 +562,7 @@
             button21.Name = "button21";
             button21.Size = new Size(75, 80);
             button21.TabIndex = 4;
-            button21.Text = "±";
+            button21.Text = "%";
             button21.UseVisualStyleBackColor = true;
             button21.Click += btnPM_Click;
             // 
@@ -570,7 +570,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(833, 508);
+            ClientSize = new Size(699, 508);
             Controls.Add(btnDiv);
             Controls.Add(btnMult);
             Controls.Add(btnSub);
@@ -589,12 +589,12 @@
             Controls.Add(button15);
             Controls.Add(button11);
             Controls.Add(button7);
-            Controls.Add(button3);
+            Controls.Add(btnLog);
             Controls.Add(button18);
             Controls.Add(button14);
             Controls.Add(button10);
             Controls.Add(button6);
-            Controls.Add(button2);
+            Controls.Add(btnPi);
             Controls.Add(btnPM);
             Controls.Add(btnEquals);
             Controls.Add(btn3);
@@ -651,8 +651,8 @@
         private ToolStripMenuItem standardToolStripMenuItem;
         private ToolStripMenuItem scientificToolStripMenuItem;
         private ToolStripMenuItem exitToolStripMenuItem;
-        private Button button2;
-        private Button button3;
+        private Button btnPi;
+        private Button btnLog;
         private Button button4;
         private Button button5;
         private Button button6;

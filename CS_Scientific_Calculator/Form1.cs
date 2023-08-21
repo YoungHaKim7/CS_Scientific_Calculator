@@ -4,6 +4,7 @@ namespace CS_Scientific_Calculator
     {
         double enterFirstValue, enterSecondValue;
         String op;
+
         public Form1()
         {
             InitializeComponent();
@@ -126,6 +127,22 @@ namespace CS_Scientific_Calculator
         {
             this.Width = 849; // 849
             txtResult.Width = 310;
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult exitCal = default;
+            DialogResult = exitCal;
+
+            exitCal = MessageBox.Show("Confirm if you want to exit",
+                                      "Scientific Calculator",
+                                      MessageBoxButtons.YesNo,
+                                      MessageBoxIcon.Question);
+
+            if (exitCal == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
     }
 }

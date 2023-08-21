@@ -308,22 +308,23 @@
             // standardToolStripMenuItem
             // 
             standardToolStripMenuItem.Name = "standardToolStripMenuItem";
-            standardToolStripMenuItem.Size = new Size(123, 22);
+            standardToolStripMenuItem.Size = new Size(180, 22);
             standardToolStripMenuItem.Text = "Standard";
             standardToolStripMenuItem.Click += standardToolStripMenuItem_Click;
             // 
             // scientificToolStripMenuItem
             // 
             scientificToolStripMenuItem.Name = "scientificToolStripMenuItem";
-            scientificToolStripMenuItem.Size = new Size(123, 22);
+            scientificToolStripMenuItem.Size = new Size(180, 22);
             scientificToolStripMenuItem.Text = "Scientific";
             scientificToolStripMenuItem.Click += scientificToolStripMenuItem_Click;
             // 
             // exitToolStripMenuItem
             // 
             exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            exitToolStripMenuItem.Size = new Size(123, 22);
+            exitToolStripMenuItem.Size = new Size(180, 22);
             exitToolStripMenuItem.Text = "Exit";
+            exitToolStripMenuItem.Click += exitToolStripMenuItem_Click;
             // 
             // Form1
             // 

@@ -114,19 +114,19 @@ namespace CS_Scientific_Calculator
         private void Form1_Load(object sender, EventArgs e)
         {
             this.Width = 360; // 849
-            txtResult.Width = 310;
+            txtResult.Width = 320;
         }
 
         private void standardToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Width = 360; // 849
-            txtResult.Width = 310;
+            txtResult.Width = 320;
         }
 
         private void scientificToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Width = 690; // 849
-            txtResult.Width = 636;
+            this.Width = 710; // 849
+            txtResult.Width = 656;
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)

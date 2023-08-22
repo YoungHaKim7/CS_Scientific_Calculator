@@ -531,7 +531,7 @@
             btnExp.TabIndex = 4;
             btnExp.Text = "Exp";
             btnExp.UseVisualStyleBackColor = true;
-            btnExp.Click += btnPM_Click;
+            btnExp.Click += numberOper;
             // 
             // btnMod
             // 
@@ -542,7 +542,7 @@
             btnMod.TabIndex = 4;
             btnMod.Text = "Mod";
             btnMod.UseVisualStyleBackColor = true;
-            btnMod.Click += btnPM_Click;
+            btnMod.Click += numberOper;
             // 
             // btnOct
             // 

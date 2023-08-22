@@ -70,6 +70,17 @@ namespace CS_Scientific_Calculator
                     txtResult.Text = (enterFirstValue / enterSecondValue).ToString();
                     break;
 
+                case "Mod":
+                    txtResult.Text = (enterFirstValue % enterSecondValue).ToString();
+                    break;
+
+                case "Exp":
+                    double i = Convert.ToDouble(txtResult.Text);
+                    double j;
+                    j = enterSecondValue;
+                    txtResult.Text = Math.Exp(i * Math.Log(j * 4)).ToString();
+                    break;
+
                 default: break;
             }
         }

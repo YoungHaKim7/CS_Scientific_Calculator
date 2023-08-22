@@ -476,7 +476,7 @@
             btn1x.TabIndex = 4;
             btn1x.Text = "1/x";
             btn1x.UseVisualStyleBackColor = true;
-            btn1x.Click += btnx_Click;
+            btn1x.Click += btn1x_Click;
             // 
             // btnTanh
             // 
@@ -520,7 +520,7 @@
             btnlnx.TabIndex = 4;
             btnlnx.Text = "ln x";
             btnlnx.UseVisualStyleBackColor = true;
-            btnlnx.Click += btnPM_Click;
+            btnlnx.Click += btnlnx_Click;
             // 
             // btnExp
             // 
@@ -564,7 +564,7 @@
             btnPer.TabIndex = 4;
             btnPer.Text = "%";
             btnPer.UseVisualStyleBackColor = true;
-            btnPer.Click += btnPM_Click;
+            btnPer.Click += btnPer_Click;
             // 
             // Form1
             // 

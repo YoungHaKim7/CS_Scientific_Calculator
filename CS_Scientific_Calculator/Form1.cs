@@ -237,5 +237,30 @@ namespace CS_Scientific_Calculator
             tan = Math.Tan(tan);
             txtResult.Text = Convert.ToString(tan);
         }
+
+        private void btn1x_Click(object sender, EventArgs e)
+        {
+            double a;
+
+            a = Convert.ToDouble(1.0 / Convert.ToDouble(txtResult.Text));
+
+            txtResult.Text = Convert.ToString(a);
+        }
+
+        private void btnlnx_Click(object sender, EventArgs e)
+        {
+            double lnx = Convert.ToDouble(txtResult.Text);
+            lnx = Math.Log(lnx);
+            txtResult.Text = Convert.ToString(lnx);
+        }
+
+        private void btnPer_Click(object sender, EventArgs e)
+        {
+            double a;
+
+            a = Convert.ToDouble(txtResult.Text) / Convert.ToDouble(100);
+
+            txtResult.Text = Convert.ToString(a);
+        }
     }
 }

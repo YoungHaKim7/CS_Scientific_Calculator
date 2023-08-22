@@ -377,7 +377,7 @@
             button4.TabIndex = 4;
             button4.Text = "Sqrt";
             button4.UseVisualStyleBackColor = true;
-            button4.Click += btnPM_Click;
+            button4.Click += btnSqrt_Click;
             // 
             // button5
             // 

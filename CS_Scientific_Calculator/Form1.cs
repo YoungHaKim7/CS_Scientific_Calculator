@@ -156,5 +156,12 @@ namespace CS_Scientific_Calculator
             logg = Math.Log10(logg);
             txtResult.Text = Convert.ToString(logg);
         }
+
+        private void btnSqrt_Click(object sender, EventArgs e)
+        {
+            double sq = Convert.ToDouble(txtResult.Text);
+            sq = Math.Sqrt(sq);
+            txtResult.Text = Convert.ToString(sq);
+        }
     }
 }

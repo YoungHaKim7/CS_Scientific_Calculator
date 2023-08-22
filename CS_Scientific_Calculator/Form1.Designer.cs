@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             txtResult = new TextBox();
-            button1 = new Button();
+            btnBS = new Button();
             btnClearEntry = new Button();
             btnClear = new Button();
             btnPM = new Button();
@@ -89,16 +89,16 @@
             txtResult.TextAlign = HorizontalAlignment.Right;
             txtResult.TextChanged += textBox1_TextChanged;
             // 
-            // button1
+            // btnBS
             // 
-            button1.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.Location = new Point(12, 68);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 80);
-            button1.TabIndex = 1;
-            button1.Text = "⌫";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += btnBS_Click;
+            btnBS.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnBS.Location = new Point(12, 68);
+            btnBS.Name = "btnBS";
+            btnBS.Size = new Size(75, 80);
+            btnBS.TabIndex = 1;
+            btnBS.Text = "⌫";
+            btnBS.UseVisualStyleBackColor = true;
+            btnBS.Click += btnBS_Click;
             // 
             // btnClearEntry
             // 
@@ -610,7 +610,7 @@
             Controls.Add(btn1);
             Controls.Add(btn4);
             Controls.Add(btn7);
-            Controls.Add(button1);
+            Controls.Add(btnBS);
             Controls.Add(txtResult);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
@@ -626,7 +626,7 @@
         #endregion
 
         private TextBox txtResult;
-        private Button button1;
+        private Button btnBS;
         private Button btnClearEntry;
         private Button btnClear;
         private Button btnPM;

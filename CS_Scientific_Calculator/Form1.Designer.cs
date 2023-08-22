@@ -399,7 +399,7 @@
             btnSinh.TabIndex = 4;
             btnSinh.Text = "Sinh";
             btnSinh.UseVisualStyleBackColor = true;
-            btnSinh.Click += btnPM_Click;
+            btnSinh.Click += btnSinh_Click;
             // 
             // btnSin
             // 
@@ -410,7 +410,7 @@
             btnSin.TabIndex = 4;
             btnSin.Text = "Sin";
             btnSin.UseVisualStyleBackColor = true;
-            btnSin.Click += btnPM_Click;
+            btnSin.Click += btnSin_Click;
             // 
             // btnDec
             // 
@@ -436,14 +436,14 @@
             // 
             // btnCosh
             // 
-            btnCosh.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnCosh.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnCosh.Location = new Point(358, 240);
             btnCosh.Name = "btnCosh";
             btnCosh.Size = new Size(75, 80);
             btnCosh.TabIndex = 4;
             btnCosh.Text = "Cosh";
             btnCosh.UseVisualStyleBackColor = true;
-            btnCosh.Click += btnPM_Click;
+            btnCosh.Click += btnCosh_Click;
             // 
             // btnCos
             // 
@@ -454,7 +454,7 @@
             btnCos.TabIndex = 4;
             btnCos.Text = "Cos";
             btnCos.UseVisualStyleBackColor = true;
-            btnCos.Click += btnPM_Click;
+            btnCos.Click += btnCos_Click;
             // 
             // btnBin
             // 
@@ -480,14 +480,14 @@
             // 
             // btnTanh
             // 
-            btnTanh.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnTanh.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnTanh.Location = new Point(358, 326);
             btnTanh.Name = "btnTanh";
             btnTanh.Size = new Size(75, 80);
             btnTanh.TabIndex = 4;
             btnTanh.Text = "Tanh";
             btnTanh.UseVisualStyleBackColor = true;
-            btnTanh.Click += btnPM_Click;
+            btnTanh.Click += btnTanh_Click;
             // 
             // btnTan
             // 
@@ -498,7 +498,7 @@
             btnTan.TabIndex = 4;
             btnTan.Text = "Tan";
             btnTan.UseVisualStyleBackColor = true;
-            btnTan.Click += btnPM_Click;
+            btnTan.Click += btnTan_Click;
             // 
             // btnHex
             // 

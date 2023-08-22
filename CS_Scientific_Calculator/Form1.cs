@@ -183,5 +183,48 @@ namespace CS_Scientific_Calculator
             x = (q * p * m);
             txtResult.Text = Convert.ToString(x);
         }
+
+        private void btnSinh_Click(object sender, EventArgs e)
+        {
+            double sh = Convert.ToDouble(txtResult.Text);
+            sh = Math.Sinh(sh);
+            txtResult.Text = Convert.ToString(sh);
+        }
+
+        private void btnSin_Click(object sender, EventArgs e)
+        {
+            double sin = Convert.ToDouble(txtResult.Text);
+            sin = Math.Sin(sin);
+            txtResult.Text = Convert.ToString(sin);
+
+        }
+
+        private void btnCosh_Click(object sender, EventArgs e)
+        {
+            double cosh = Convert.ToDouble(txtResult.Text);
+            cosh = Math.Cosh(cosh);
+            txtResult.Text = Convert.ToString(cosh);
+        }
+
+        private void btnCos_Click(object sender, EventArgs e)
+        {
+            double cos = Convert.ToDouble(txtResult.Text);
+            cos = Math.Cos(cos);
+            txtResult.Text = Convert.ToString(cos);
+        }
+
+        private void btnTanh_Click(object sender, EventArgs e)
+        {
+            double tanh = Convert.ToDouble(txtResult.Text);
+            tanh = Math.Tanh(tanh);
+            txtResult.Text = Convert.ToString(tanh);
+        }
+
+        private void btnTan_Click(object sender, EventArgs e)
+        {
+            double tan = Convert.ToDouble(txtResult.Text);
+            tan = Math.Tan(tan);
+            txtResult.Text = Convert.ToString(tan);
+        }
     }
 }

@@ -56,24 +56,24 @@
             exitToolStripMenuItem = new ToolStripMenuItem();
             btnPi = new Button();
             btnLog = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
-            button13 = new Button();
-            button14 = new Button();
-            button15 = new Button();
-            button16 = new Button();
-            button17 = new Button();
-            button18 = new Button();
-            button19 = new Button();
-            button20 = new Button();
-            button21 = new Button();
+            btnSq = new Button();
+            btnx2 = new Button();
+            btnSinh = new Button();
+            btnSin = new Button();
+            btnDec = new Button();
+            btnx3 = new Button();
+            btnCosh = new Button();
+            btnCos = new Button();
+            btnBin = new Button();
+            btn1x = new Button();
+            btnTanh = new Button();
+            btnTan = new Button();
+            btnHex = new Button();
+            btnlnx = new Button();
+            btnExp = new Button();
+            btnMod = new Button();
+            btnOct = new Button();
+            btnPer = new Button();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -368,203 +368,203 @@
             btnLog.UseVisualStyleBackColor = true;
             btnLog.Click += btnLog_Click;
             // 
-            // button4
+            // btnSq
             // 
-            button4.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button4.Location = new Point(520, 68);
-            button4.Name = "button4";
-            button4.Size = new Size(75, 80);
-            button4.TabIndex = 4;
-            button4.Text = "Sqrt";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += btnSqrt_Click;
+            btnSq.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnSq.Location = new Point(520, 68);
+            btnSq.Name = "btnSq";
+            btnSq.Size = new Size(75, 80);
+            btnSq.TabIndex = 4;
+            btnSq.Text = "Sqrt";
+            btnSq.UseVisualStyleBackColor = true;
+            btnSq.Click += btnSq_Click;
             // 
-            // button5
+            // btnx2
             // 
-            button5.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button5.Location = new Point(601, 68);
-            button5.Name = "button5";
-            button5.Size = new Size(75, 80);
-            button5.TabIndex = 4;
-            button5.Text = "x²";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += btnPM_Click;
+            btnx2.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnx2.Location = new Point(601, 68);
+            btnx2.Name = "btnx2";
+            btnx2.Size = new Size(75, 80);
+            btnx2.TabIndex = 4;
+            btnx2.Text = "x²";
+            btnx2.UseVisualStyleBackColor = true;
+            btnx2.Click += btnx2_Click;
             // 
-            // button6
+            // btnSinh
             // 
-            button6.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button6.Location = new Point(358, 154);
-            button6.Name = "button6";
-            button6.Size = new Size(75, 80);
-            button6.TabIndex = 4;
-            button6.Text = "Sinh";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += btnPM_Click;
+            btnSinh.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnSinh.Location = new Point(358, 154);
+            btnSinh.Name = "btnSinh";
+            btnSinh.Size = new Size(75, 80);
+            btnSinh.TabIndex = 4;
+            btnSinh.Text = "Sinh";
+            btnSinh.UseVisualStyleBackColor = true;
+            btnSinh.Click += btnPM_Click;
             // 
-            // button7
+            // btnSin
             // 
-            button7.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button7.Location = new Point(439, 154);
-            button7.Name = "button7";
-            button7.Size = new Size(75, 80);
-            button7.TabIndex = 4;
-            button7.Text = "Sin";
-            button7.UseVisualStyleBackColor = true;
-            button7.Click += btnPM_Click;
+            btnSin.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnSin.Location = new Point(439, 154);
+            btnSin.Name = "btnSin";
+            btnSin.Size = new Size(75, 80);
+            btnSin.TabIndex = 4;
+            btnSin.Text = "Sin";
+            btnSin.UseVisualStyleBackColor = true;
+            btnSin.Click += btnPM_Click;
             // 
-            // button8
+            // btnDec
             // 
-            button8.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button8.Location = new Point(520, 154);
-            button8.Name = "button8";
-            button8.Size = new Size(75, 80);
-            button8.TabIndex = 4;
-            button8.Text = "Dec";
-            button8.UseVisualStyleBackColor = true;
-            button8.Click += btnPM_Click;
+            btnDec.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnDec.Location = new Point(520, 154);
+            btnDec.Name = "btnDec";
+            btnDec.Size = new Size(75, 80);
+            btnDec.TabIndex = 4;
+            btnDec.Text = "Dec";
+            btnDec.UseVisualStyleBackColor = true;
+            btnDec.Click += btnPM_Click;
             // 
-            // button9
+            // btnx3
             // 
-            button9.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button9.Location = new Point(601, 154);
-            button9.Name = "button9";
-            button9.Size = new Size(75, 80);
-            button9.TabIndex = 4;
-            button9.Text = "x³";
-            button9.UseVisualStyleBackColor = true;
-            button9.Click += btnPM_Click;
+            btnx3.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnx3.Location = new Point(601, 154);
+            btnx3.Name = "btnx3";
+            btnx3.Size = new Size(75, 80);
+            btnx3.TabIndex = 4;
+            btnx3.Text = "x³";
+            btnx3.UseVisualStyleBackColor = true;
+            btnx3.Click += btnx_Click;
             // 
-            // button10
+            // btnCosh
             // 
-            button10.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button10.Location = new Point(358, 240);
-            button10.Name = "button10";
-            button10.Size = new Size(75, 80);
-            button10.TabIndex = 4;
-            button10.Text = "Cosh";
-            button10.UseVisualStyleBackColor = true;
-            button10.Click += btnPM_Click;
+            btnCosh.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnCosh.Location = new Point(358, 240);
+            btnCosh.Name = "btnCosh";
+            btnCosh.Size = new Size(75, 80);
+            btnCosh.TabIndex = 4;
+            btnCosh.Text = "Cosh";
+            btnCosh.UseVisualStyleBackColor = true;
+            btnCosh.Click += btnPM_Click;
             // 
-            // button11
+            // btnCos
             // 
-            button11.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button11.Location = new Point(439, 240);
-            button11.Name = "button11";
-            button11.Size = new Size(75, 80);
-            button11.TabIndex = 4;
-            button11.Text = "Cos";
-            button11.UseVisualStyleBackColor = true;
-            button11.Click += btnPM_Click;
+            btnCos.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnCos.Location = new Point(439, 240);
+            btnCos.Name = "btnCos";
+            btnCos.Size = new Size(75, 80);
+            btnCos.TabIndex = 4;
+            btnCos.Text = "Cos";
+            btnCos.UseVisualStyleBackColor = true;
+            btnCos.Click += btnPM_Click;
             // 
-            // button12
+            // btnBin
             // 
-            button12.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button12.Location = new Point(520, 240);
-            button12.Name = "button12";
-            button12.Size = new Size(75, 80);
-            button12.TabIndex = 4;
-            button12.Text = "Bin";
-            button12.UseVisualStyleBackColor = true;
-            button12.Click += btnPM_Click;
+            btnBin.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnBin.Location = new Point(520, 240);
+            btnBin.Name = "btnBin";
+            btnBin.Size = new Size(75, 80);
+            btnBin.TabIndex = 4;
+            btnBin.Text = "Bin";
+            btnBin.UseVisualStyleBackColor = true;
+            btnBin.Click += btnPM_Click;
             // 
-            // button13
+            // btn1x
             // 
-            button13.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button13.Location = new Point(601, 240);
-            button13.Name = "button13";
-            button13.Size = new Size(75, 80);
-            button13.TabIndex = 4;
-            button13.Text = "1/x";
-            button13.UseVisualStyleBackColor = true;
-            button13.Click += btnPM_Click;
+            btn1x.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btn1x.Location = new Point(601, 240);
+            btn1x.Name = "btn1x";
+            btn1x.Size = new Size(75, 80);
+            btn1x.TabIndex = 4;
+            btn1x.Text = "1/x";
+            btn1x.UseVisualStyleBackColor = true;
+            btn1x.Click += btnx_Click;
             // 
-            // button14
+            // btnTanh
             // 
-            button14.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button14.Location = new Point(358, 326);
-            button14.Name = "button14";
-            button14.Size = new Size(75, 80);
-            button14.TabIndex = 4;
-            button14.Text = "Tanh";
-            button14.UseVisualStyleBackColor = true;
-            button14.Click += btnPM_Click;
+            btnTanh.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnTanh.Location = new Point(358, 326);
+            btnTanh.Name = "btnTanh";
+            btnTanh.Size = new Size(75, 80);
+            btnTanh.TabIndex = 4;
+            btnTanh.Text = "Tanh";
+            btnTanh.UseVisualStyleBackColor = true;
+            btnTanh.Click += btnPM_Click;
             // 
-            // button15
+            // btnTan
             // 
-            button15.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button15.Location = new Point(439, 326);
-            button15.Name = "button15";
-            button15.Size = new Size(75, 80);
-            button15.TabIndex = 4;
-            button15.Text = "Tan";
-            button15.UseVisualStyleBackColor = true;
-            button15.Click += btnPM_Click;
+            btnTan.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnTan.Location = new Point(439, 326);
+            btnTan.Name = "btnTan";
+            btnTan.Size = new Size(75, 80);
+            btnTan.TabIndex = 4;
+            btnTan.Text = "Tan";
+            btnTan.UseVisualStyleBackColor = true;
+            btnTan.Click += btnPM_Click;
             // 
-            // button16
+            // btnHex
             // 
-            button16.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button16.Location = new Point(520, 326);
-            button16.Name = "button16";
-            button16.Size = new Size(75, 80);
-            button16.TabIndex = 4;
-            button16.Text = "Hex";
-            button16.UseVisualStyleBackColor = true;
-            button16.Click += btnPM_Click;
+            btnHex.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnHex.Location = new Point(520, 326);
+            btnHex.Name = "btnHex";
+            btnHex.Size = new Size(75, 80);
+            btnHex.TabIndex = 4;
+            btnHex.Text = "Hex";
+            btnHex.UseVisualStyleBackColor = true;
+            btnHex.Click += btnPM_Click;
             // 
-            // button17
+            // btnlnx
             // 
-            button17.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button17.Location = new Point(601, 326);
-            button17.Name = "button17";
-            button17.Size = new Size(75, 80);
-            button17.TabIndex = 4;
-            button17.Text = "ln x";
-            button17.UseVisualStyleBackColor = true;
-            button17.Click += btnPM_Click;
+            btnlnx.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnlnx.Location = new Point(601, 326);
+            btnlnx.Name = "btnlnx";
+            btnlnx.Size = new Size(75, 80);
+            btnlnx.TabIndex = 4;
+            btnlnx.Text = "ln x";
+            btnlnx.UseVisualStyleBackColor = true;
+            btnlnx.Click += btnPM_Click;
             // 
-            // button18
+            // btnExp
             // 
-            button18.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button18.Location = new Point(358, 412);
-            button18.Name = "button18";
-            button18.Size = new Size(75, 80);
-            button18.TabIndex = 4;
-            button18.Text = "Exp";
-            button18.UseVisualStyleBackColor = true;
-            button18.Click += btnPM_Click;
+            btnExp.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnExp.Location = new Point(358, 412);
+            btnExp.Name = "btnExp";
+            btnExp.Size = new Size(75, 80);
+            btnExp.TabIndex = 4;
+            btnExp.Text = "Exp";
+            btnExp.UseVisualStyleBackColor = true;
+            btnExp.Click += btnPM_Click;
             // 
-            // button19
+            // btnMod
             // 
-            button19.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button19.Location = new Point(439, 412);
-            button19.Name = "button19";
-            button19.Size = new Size(75, 80);
-            button19.TabIndex = 4;
-            button19.Text = "Mod";
-            button19.UseVisualStyleBackColor = true;
-            button19.Click += btnPM_Click;
+            btnMod.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnMod.Location = new Point(439, 412);
+            btnMod.Name = "btnMod";
+            btnMod.Size = new Size(75, 80);
+            btnMod.TabIndex = 4;
+            btnMod.Text = "Mod";
+            btnMod.UseVisualStyleBackColor = true;
+            btnMod.Click += btnPM_Click;
             // 
-            // button20
+            // btnOct
             // 
-            button20.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button20.Location = new Point(520, 412);
-            button20.Name = "button20";
-            button20.Size = new Size(75, 80);
-            button20.TabIndex = 4;
-            button20.Text = "Oct";
-            button20.UseVisualStyleBackColor = true;
-            button20.Click += btnPM_Click;
+            btnOct.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnOct.Location = new Point(520, 412);
+            btnOct.Name = "btnOct";
+            btnOct.Size = new Size(75, 80);
+            btnOct.TabIndex = 4;
+            btnOct.Text = "Oct";
+            btnOct.UseVisualStyleBackColor = true;
+            btnOct.Click += btnPM_Click;
             // 
-            // button21
+            // btnPer
             // 
-            button21.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button21.Location = new Point(601, 412);
-            button21.Name = "button21";
-            button21.Size = new Size(75, 80);
-            button21.TabIndex = 4;
-            button21.Text = "%";
-            button21.UseVisualStyleBackColor = true;
-            button21.Click += btnPM_Click;
+            btnPer.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            btnPer.Location = new Point(601, 412);
+            btnPer.Name = "btnPer";
+            btnPer.Size = new Size(75, 80);
+            btnPer.TabIndex = 4;
+            btnPer.Text = "%";
+            btnPer.UseVisualStyleBackColor = true;
+            btnPer.Click += btnPM_Click;
             // 
             // Form1
             // 
@@ -575,25 +575,25 @@
             Controls.Add(btnMult);
             Controls.Add(btnSub);
             Controls.Add(btnAdd);
-            Controls.Add(button21);
-            Controls.Add(button17);
-            Controls.Add(button13);
-            Controls.Add(button9);
-            Controls.Add(button5);
-            Controls.Add(button20);
-            Controls.Add(button16);
-            Controls.Add(button12);
-            Controls.Add(button8);
-            Controls.Add(button4);
-            Controls.Add(button19);
-            Controls.Add(button15);
-            Controls.Add(button11);
-            Controls.Add(button7);
+            Controls.Add(btnPer);
+            Controls.Add(btnlnx);
+            Controls.Add(btn1x);
+            Controls.Add(btnx3);
+            Controls.Add(btnx2);
+            Controls.Add(btnOct);
+            Controls.Add(btnHex);
+            Controls.Add(btnBin);
+            Controls.Add(btnDec);
+            Controls.Add(btnSq);
+            Controls.Add(btnMod);
+            Controls.Add(btnTan);
+            Controls.Add(btnCos);
+            Controls.Add(btnSin);
             Controls.Add(btnLog);
-            Controls.Add(button18);
-            Controls.Add(button14);
-            Controls.Add(button10);
-            Controls.Add(button6);
+            Controls.Add(btnExp);
+            Controls.Add(btnTanh);
+            Controls.Add(btnCosh);
+            Controls.Add(btnSinh);
             Controls.Add(btnPi);
             Controls.Add(btnPM);
             Controls.Add(btnEquals);
@@ -653,23 +653,23 @@
         private ToolStripMenuItem exitToolStripMenuItem;
         private Button btnPi;
         private Button btnLog;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button16;
-        private Button button17;
-        private Button button18;
-        private Button button19;
-        private Button button20;
-        private Button button21;
+        private Button btnSq;
+        private Button btnx2;
+        private Button btnSinh;
+        private Button btnSin;
+        private Button btnDec;
+        private Button btnx3;
+        private Button btnCosh;
+        private Button btnCos;
+        private Button btnBin;
+        private Button btn1x;
+        private Button btnTanh;
+        private Button btnTan;
+        private Button btnHex;
+        private Button btnlnx;
+        private Button btnExp;
+        private Button btnMod;
+        private Button btnOct;
+        private Button btnPer;
     }
 }

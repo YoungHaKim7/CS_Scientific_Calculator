@@ -157,11 +157,31 @@ namespace CS_Scientific_Calculator
             txtResult.Text = Convert.ToString(logg);
         }
 
-        private void btnSqrt_Click(object sender, EventArgs e)
+        private void btnSq_Click(object sender, EventArgs e)
         {
             double sq = Convert.ToDouble(txtResult.Text);
             sq = Math.Sqrt(sq);
             txtResult.Text = Convert.ToString(sq);
+        }
+
+        private void btnx2_Click(object sender, EventArgs e)
+        {
+            double x;
+
+            x = Convert.ToDouble(txtResult.Text) * Convert.ToDouble(txtResult.Text);
+            txtResult.Text = Convert.ToString(x);
+        }
+
+        private void btnx_Click(object sender, EventArgs e)
+        {
+            double x, q, p, m;
+
+            q = Convert.ToDouble(txtResult.Text);
+            p = Convert.ToDouble(txtResult.Text);
+            m = Convert.ToDouble(txtResult.Text);
+
+            x = (q * p * m);
+            txtResult.Text = Convert.ToString(x);
         }
     }
 }

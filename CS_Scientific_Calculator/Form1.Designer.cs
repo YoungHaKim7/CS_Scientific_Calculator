@@ -366,7 +366,7 @@
             btnLog.TabIndex = 4;
             btnLog.Text = "Log";
             btnLog.UseVisualStyleBackColor = true;
-            btnLog.Click += btnPM_Click;
+            btnLog.Click += btnLog_Click;
             // 
             // button4
             // 

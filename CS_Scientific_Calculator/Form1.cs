@@ -149,5 +149,12 @@ namespace CS_Scientific_Calculator
         {
             txtResult.Text = "3.141592653589976323";
         }
+
+        private void btnLog_Click(object sender, EventArgs e)
+        {
+            double logg = Convert.ToDouble(txtResult.Text);
+            logg = Math.Log10(logg);
+            txtResult.Text = Convert.ToString(logg);
+        }
     }
 }

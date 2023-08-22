@@ -144,5 +144,10 @@ namespace CS_Scientific_Calculator
                 Application.Exit();
             }
         }
+
+        private void btnPi_Click(object sender, EventArgs e)
+        {
+            txtResult.Text = "3.141592653589976323";
+        }
     }
 }

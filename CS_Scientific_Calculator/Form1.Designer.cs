@@ -355,7 +355,7 @@
             btnPi.TabIndex = 4;
             btnPi.Text = "π";
             btnPi.UseVisualStyleBackColor = true;
-            btnPi.Click += btnPM_Click;
+            btnPi.Click += btnPi_Click;
             // 
             // btnLog
             // 
@@ -386,7 +386,7 @@
             button5.Name = "button5";
             button5.Size = new Size(75, 80);
             button5.TabIndex = 4;
-            button5.Text = "X²";
+            button5.Text = "x²";
             button5.UseVisualStyleBackColor = true;
             button5.Click += btnPM_Click;
             // 
@@ -430,7 +430,7 @@
             button9.Name = "button9";
             button9.Size = new Size(75, 80);
             button9.TabIndex = 4;
-            button9.Text = "±";
+            button9.Text = "x³";
             button9.UseVisualStyleBackColor = true;
             button9.Click += btnPM_Click;
             // 
@@ -474,7 +474,7 @@
             button13.Name = "button13";
             button13.Size = new Size(75, 80);
             button13.TabIndex = 4;
-            button13.Text = "±";
+            button13.Text = "1/x";
             button13.UseVisualStyleBackColor = true;
             button13.Click += btnPM_Click;
             // 

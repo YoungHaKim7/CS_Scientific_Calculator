@@ -421,7 +421,7 @@
             btnDec.TabIndex = 4;
             btnDec.Text = "Dec";
             btnDec.UseVisualStyleBackColor = true;
-            btnDec.Click += btnPM_Click;
+            btnDec.Click += btnDec_Click;
             // 
             // btnx3
             // 
@@ -465,7 +465,7 @@
             btnBin.TabIndex = 4;
             btnBin.Text = "Bin";
             btnBin.UseVisualStyleBackColor = true;
-            btnBin.Click += btnPM_Click;
+            btnBin.Click += btnBin_Click;
             // 
             // btn1x
             // 
@@ -509,7 +509,7 @@
             btnHex.TabIndex = 4;
             btnHex.Text = "Hex";
             btnHex.UseVisualStyleBackColor = true;
-            btnHex.Click += btnPM_Click;
+            btnHex.Click += btnHex_Click;
             // 
             // btnlnx
             // 
@@ -553,7 +553,7 @@
             btnOct.TabIndex = 4;
             btnOct.Text = "Oct";
             btnOct.UseVisualStyleBackColor = true;
-            btnOct.Click += btnPM_Click;
+            btnOct.Click += btnOct_Click;
             // 
             // btnPer
             // 

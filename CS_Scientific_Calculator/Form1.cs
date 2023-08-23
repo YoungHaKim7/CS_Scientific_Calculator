@@ -262,5 +262,32 @@ namespace CS_Scientific_Calculator
 
             txtResult.Text = Convert.ToString(a);
         }
+
+        private void btnDec_Click(object sender, EventArgs e)
+        {
+            double dec = Convert.ToDouble(txtResult.Text);
+
+            int i1 = Convert.ToInt32(dec);
+            int i2 = (int)dec;
+            txtResult.Text = Convert.ToString(i2);
+        }
+
+        private void btnBin_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(txtResult.Text);
+            txtResult.Text = Convert.ToString(a, 2);
+        }
+
+        private void btnHex_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(txtResult.Text);
+            txtResult.Text = Convert.ToString(a, 16);
+        }
+
+        private void btnOct_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(txtResult.Text);
+            txtResult.Text= Convert.ToString(a, 8);
+        }
     }
 }
